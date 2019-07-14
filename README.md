@@ -1,17 +1,21 @@
 # My Cloud Playground
 
-[https://mam-23701.netlify.com]
+[See it in action](https://mam-23701.netlify.com)
 
 ## Repositories
 
 ### Frontend
+The frontend ist javascript/webcomponent based and hosted at netlify.
 
 [https://github.com/moewes/netlify]
 
 ### Backend
 
-[https://github.com/moewes/netlify-backend]
-[Repository for Docker Image|https://github.com/moewes/netlify-docker]
+The backend ist written in java with the the quarkus framework (quarkus.io) and deployed at openshift (openshift.com).
+
+[Backend Repository](https://github.com/moewes/netlify-backend)
+
+[Repository for Docker Image](https://github.com/moewes/netlify-docker)
 
 ## Projects
 
