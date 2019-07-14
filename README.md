@@ -5,9 +5,9 @@
 ## Repositories
 
 ### Frontend
-The frontend ist javascript/webcomponent based and hosted at netlify.
+The frontend is javascript/webcomponent based and hosted at netlify.
 
-[https://github.com/moewes/netlify]
+[Frontend Repository](https://github.com/moewes/netlify)
 
 ### Backend
 
