@@ -4,14 +4,23 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-   <title>{{ page.title }}</title>
+    <title>{{ page.title }}</title>
     <link rel="stylesheet" href="https://unpkg.com/fiori-fundamentals@1.7.0/dist/fiori-fundamentals.min.css">
 </head>
 
 <body>
-    
-     {{ content }} 
-     
+
+    <article class="fd-page">
+        <header class="fd-page__header fd-has-background-color-background-2">
+            {{ page.pageTitle }}
+        </header>
+        <div class="fd-page__content fd-has-background-color-neutral-2">
+            {{ content }}
+        </div>
+    </article>
+
+
+
 </body>
 
 </html>
