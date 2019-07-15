@@ -1,21 +1,52 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/css/style.css">
-  </head>
-  <body>
+    <style>
+        html,
+        body {
+            background: #ececec;
+            overflow-x: hidden;
+        }
+        .footer {
+    margin-top: 60px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 56px;
+    line-height: 60px;
+}
+
+.footer a {
+    color: rgb(163, 163, 163);
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: unset;
+}
+
+.footer p {
+    color: #FFF;
+    font-size: 1rem;
+    line-height: unset;
+}
+    </style>
+</head>
+
+<body>
     <nav>
-      <a href="/">Home</a>
-      <a href="/blog/">Blog</a>
+        <a href="/">Home</a>
+        <a href="/blog/">Blog</a>
     </nav>
     <h1>{{ page.title }}</h1>
     <section>
-      {{ content }}
+        {{ content }}
     </section>
     <footer>
-      &copy; to me
+        &copy; to me
     </footer>
-  </body>
+</body>
+
 </html>
