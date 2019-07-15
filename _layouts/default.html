@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <script type="module" src="/mycloudplayground/my-gh-header.js"></script>
+    <script type="module" src="/mycloudplayground/my-gh-panel.js"></script>
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/mycloudplayground/styles.css">
 </head>
@@ -12,10 +13,12 @@
 <body>
     <my-gh-header page-title="{{ page.title }}">
 
-    </my-header>  
-    <section class="content">
-        {{ content }}
-    </section>
+    </my-gh-header>  
+    <my-gh-panel panleTitle="{{ page.title }}" 
+    panelContent=" {{ content }}">
+    </my-gh-panel>
+       
+    
 </body>
 
 </html>
