@@ -10,14 +10,36 @@
 
 <body>
 
-    <article class="fd-page">
-        <header class="fd-page__header fd-has-background-color-background-2">
+
+<div class="fd-shell fd-shell--fundamentals">
+        <div class="fd-shell__header">
+            fd-shell__header
             {{ page.title }}
-        </header>
-        <div class="fd-page__content fd-has-background-color-neutral-2">
-            {{ content }}
         </div>
-    </article>
+        <div class="fd-shell__app">
+            <div class="fd-app">
+                <div class="fd-app__navigation fd-app__navigation--horizontal">
+                    fd-app__navigation--horizontal
+                </div>
+                <main class="fd-app__main">
+                    fd-app__main
+                    <article class="fd-page">
+                            <header class="fd-page__header fd-has-background-color-background-2">
+                                {{ page.title }}
+                            </header>
+                            <div class="fd-page__content fd-has-background-color-neutral-2">
+                                {{ content }}
+                            </div>
+                        </article>
+                </main>
+            </div>
+        </div>
+        <div class="fd-shell__footer">
+            fd-shell__footer
+        </div>
+    </div>
+
+   
 
 </body>
 
