@@ -2,70 +2,20 @@
 <html lang="en">
 
 <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    
-    <script type="module" src="/mycloudplayground/my-header.js"></script>
+    <script type="module" src="/mycloudplayground/my-gh-header.js"></script>
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/mycloudplayground/styles.css">
-    <style>
-        html,
-        body {
-            background: #ececec;
-            overflow-x: hidden;
-            font-family: sans-serif;
-            padding: 0px;
-            margin: 0px;
-        }
-
-        nav {
-            background: #343a40;
-            position: fixed;
-            width: 100%;
-            height: 56px;
-        }
-
-        .content {
-            padding: 1em;
-        }
-
-        footer {
-            margin-top: 60px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            height: 56px;
-            line-height: 60px;
-            background: #343a40;
-        }
-
-        footer a {
-            color: rgb(163, 163, 163);
-            text-decoration: none;
-            font-size: 1rem;
-            line-height: unset;
-        }
-
-        footer p {
-            color: #FFF;
-            font-size: 1rem;
-            line-height: unset;
-        }
-    </style>
 </head>
 
 <body>
-    <my-header>
+    <my-gh-header page-title="{{ page.title }}">
 
-    </my-header>
-   
-    
+    </my-header>  
     <section class="content">
         {{ content }}
     </section>
-    <footer>
-        &copy; to me
-    </footer>
 </body>
 
 </html>
