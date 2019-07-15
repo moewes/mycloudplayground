@@ -2,7 +2,10 @@
 <html lang="en">
 
 <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
+    
+    <script type="module" src="https://mam-23701.netlify.com/my-header.js"></script>
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/css/style.css">
     <style>
@@ -52,11 +55,10 @@
 </head>
 
 <body>
-    <nav>
-            <h1>{{ page.title }}</h1>
-        <a href="/">Home</a>
-        <a href="/blog/">Blog</a>
-    </nav>
+    <my-header>
+
+    </my-header>
+   
     
     <section class="content">
         {{ content }}
