@@ -31,7 +31,5 @@ The backend ist written in java with the the quarkus framework (quarkus.io) and 
 
 ### Secure App with Keycloak/OIDC
 
-{% for repository in site.pages %}
-  * [{{ repository.name }}]({{ repository. }})
-{% endfor %}
+
 
