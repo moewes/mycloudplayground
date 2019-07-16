@@ -3,4 +3,18 @@
     padding: 0;
     background: #EDEFF0
   }
+
+  .header {
+    padding: 10em;
+    background: #354A5F;
+  }
+
+  .content {
+    padding: 10 em;
+  }
+
+  .footer {
+    padding: 10em;
+    background: #354A5F;
+  }
   
