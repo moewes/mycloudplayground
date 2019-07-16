@@ -12,7 +12,8 @@
   }
 
   .header-line {
-    align-content: center;
+    vertical-align: middle;
+    font-size: 1em;
   }
 
   .content {
@@ -23,6 +24,10 @@
   .footer {
     padding: 1em;
     background: #354A5F;
+    color: #EDEFF0;
+  }
+
+  .footer a {
     color: #EDEFF0;
   }
   
