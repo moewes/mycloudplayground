@@ -11,6 +11,10 @@
     color: #EDEFF0
   }
 
+  .header-line {
+    align-content: center;
+  }
+
   .content {
     padding: 1em;
     color: #354A5F;
