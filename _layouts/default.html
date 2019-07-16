@@ -9,32 +9,66 @@
 </head>
 
 <body>
-
-
-<div class="fd-shell fd-shell--fundamentals">
+    <div class="fd-shell fd-shell--fundamentals">
         <div class="fd-shell__header">
-            fd-shell__header
-            {{ page.title }}
+            <div class="fd-shellbar">
+                <div class="fd-shellbar__group fd-shellbar__group--start">
+                    <a href="#" class="fd-shellbar__logo"><img
+                            src="/mycloudplayground/logo.png"
+                            srcset="//unpkg.com/fiori-fundamentals/dist/images/sap-logo@2x.png 1x, //unpkg.com/fiori-fundamentals/dist/images/sap-logo@3x.png 2x, //unpkg.com/fiori-fundamentals/dist/images/sap-logo@4x.png 3x"
+                            width="48" height="24"></a>
+                    <div class="fd-shellbar__product">
+                        <span class="fd-shellbar__title">My Cloud Playground</span>
+                    </div>
+                </div>
+                <div class="fd-shellbar__group fd-shellbar__group--end">
+                    <div class="fd-shellbar__actions">
+                        <div class="fd-shellbar__action fd-shellbar__action--show-always">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
         <div class="fd-shell__app">
             <div class="fd-app">
-                <div class="fd-app__navigation fd-app__navigation--horizontal">
-                    fd-app__navigation--horizontal
-                </div>
                 <main class="fd-app__main">
-                    fd-app__main
-                    
-                                {{ content }}
-                           
+
+                    <div class="fd-panel">
+                        <div class="fd-panel__header">
+                            <div class="fd-panel__head">
+                                <h3 class="fd-panel__title">
+                                    .fd-panel__title
+                                </h3>
+                                <p class="fd-panel__description">
+                                    .fd-panel__description
+                                </p>
+                            </div>
+                            <div class="fd-panel__actions">
+                                .fd-panel__actions
+                            </div>
+                        </div>
+                        <div class="fd-panel__filters" id="">
+                            .fd-panel__filters
+                        </div>
+                        <div class="fd-panel__body">
+                            {{ content }}
+                        </div>
+                        <div class="fd-panel__footer">
+                            .fd-panel__footer
+                        </div>
+                    </div>
                 </main>
             </div>
         </div>
-        <div class="fd-shell__footer">
-            fd-shell__footer
+        <div class="fd-shell__footer fd-has-background-color-shell-1">
+            <div class="fd-has-color-shell-2 fd-has-font-weight-bold"> fd-shell__footer </div>
+
         </div>
     </div>
 
-   
+
 
 </body>
 
