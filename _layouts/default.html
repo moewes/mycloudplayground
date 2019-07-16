@@ -9,45 +9,22 @@
 </head>
 
 <body>
-    <div class="fd-shell fd-shell--fundamentals">
-        <div class="fd-shell__header">
-            <div class="fd-shellbar">
-                <div class="fd-shellbar__group fd-shellbar__group--start">
-                    <a href="#" class="fd-shellbar__logo"><img
-                            src="/mycloudplayground/logo.png"
-                            width="48" height="24"></a>
-                    <div class="fd-shellbar__product">
-                        <span class="fd-shellbar__title">My Cloud Playground</span>
-                    </div>
-                </div>
-                <div class="fd-shellbar__group fd-shellbar__group--end">
-                    <div class="fd-shellbar__actions">
-                        <div class="fd-shellbar__action fd-shellbar__action--show-always">
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="fd-shell__app">
-            <div class="fd-app">
-                <main class="fd-app__main">
-
-<div>  {{ content }} </div>
-
-                    <div class="fd-panel">
-                        <div class="fd-panel__body">
-                           
-                        </div>
-                        
-                    </div>
-                </main>
-            </div>
-        </div>
-        <div class="fd-shell__footer fd-has-background-color-shell-1">
-            <div class="fd-has-color-shell-2 fd-has-font-weight-bold"> fd-shell__footer </div>
-
+    <div class="fd-has-background-color-shell-1">
+        <div><img src="/mycloudplayground/logo.png"></div>
+        <div>My Cloud Playground Github Pages</div>
+    </div>
+    <div>
+        {{content}}
+    </div>
+    <div>
+        <div class="fd-has-color-shell-2 fd-has-color-shell-2">
+            {% if site.github.is_project_page %}
+            <p class="repo-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is
+                maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</p>
+            {% endif %}
+            {% if site.github.is_project_page %}
+            <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
+            {% endif %}
         </div>
     </div>
 
